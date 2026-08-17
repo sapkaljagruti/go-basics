@@ -1,0 +1,4 @@
+Earning Before Tax: 3000.0
+		Profit: 2940.0
+		Ratio: 1.0
+		
