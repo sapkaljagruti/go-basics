@@ -8,7 +8,7 @@ import (
 const inflationRate float64 = 2
 
 func main() {
-	fmt.Println("Hello, Word!")
+	fmt.Println("Hello, World!")
 
 	var investmentAmount, expectedReturnRate float64
 	var years float64 = 5
