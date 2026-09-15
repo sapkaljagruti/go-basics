@@ -26,7 +26,9 @@ func main() {
 	userLastName := getValueByPrompt("Enter your last name: ")
 	userBirthDate := getValueByPrompt("Enter your birthdate(MM/DD/YYYY): ")
 
-	appUser := user{
+	var appUser *user
+
+	appUser = &user{
 		firstName: userFirstName,
 		lastName:  userLastName,
 		birthDate: userBirthDate,
